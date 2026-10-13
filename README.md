@@ -1,16 +1,113 @@
-# React + Vite
+# React Counter App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive Counter Application built with **React** to practice **state management** using the **useState Hook**.
 
-Currently, two official plugins are available:
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow?style=for-the-badge&logo=javascript)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📸 Preview
 
-## React Compiler
+![Counter App](./screenshots/counter-app.png)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ➕ Increment Counter
+- ➖ Decrement Counter
+- 🔄 Reset Counter
+- 🔢 Supports Negative Values
+
+
+---
+
+## 🛠️ Tech Stack
+
+- React
+- JavaScript (ES6+)
+- Tailwind CSS
+- Vite
+
+---
+
+## 📚 What I Learned
+
+While building this project, I practiced:
+
+- React Functional Components
+- useState Hook
+- State Management
+- Event Handling
+- Component-based Architecture
+- Tailwind CSS Styling
+
+---
+
+## 📂 Project Structure
+
+```text
+react-counter-app/
+│
+├── public/
+├── screenshots/
+│   └── counter-app.png
+├── src/
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── ...
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+---
+
+## 🚀 Getting Started
+
+Clone the repository
+
+```bash
+git clone https://github.com/Arsh173/react-counter-app.git
+```
+
+Go to the project directory
+
+```bash
+cd react-counter-app
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Start the development server
+
+```bash
+npm run dev
+```
+
+---
+
+## 🎯 Future Improvements
+
+- Add Maximum & Minimum Counter Limit
+- Add Custom Step Increment/Decrement
+- Add Dark/Light Theme
+- Add Smooth Animations
+- Store Counter Value using Local Storage
+
+---
+
+## 👨‍💻 Author
+
+**Arsh**
+
+- GitHub: [@Arsh173](https://github.com/Arsh173)
+
+---
+
+⭐ If you found thi s project helpful, don't forget to star the repository.
